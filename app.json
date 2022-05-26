@@ -1,0 +1,27 @@
+{
+  "name": "GoLang Telegram Bot",
+  "description": "Golang based sample telegram bot.",
+  "keywords": [
+    "telegram",
+    "telegram-bot",
+    "golang tg bot",
+    "tg bot",
+    "golang bot",
+    "golang telegram"
+  ],
+  "repository": "k",
+  "website": "k",
+  "success_url": "k",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Bot Token, Get It From @BotFather.",
+      "value": "",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/go"
+    }
+  ]
+}
